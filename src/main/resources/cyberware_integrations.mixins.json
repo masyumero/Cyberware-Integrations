@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.masyumero.cyberware_integrations.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "singlecore.refmap.json",
+  "mixins": [
+    "cyber_ware_port.MixinEntitiesItemDropEvents",
+    "cyberspells.MixinCyberRuneLogMute"
+  ],
+  "client": [
+    "cyberwareplus.MixinClientCyberWareData"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "mixinextras": {
+    "minVersion": "0.5.5"
+  }
+}

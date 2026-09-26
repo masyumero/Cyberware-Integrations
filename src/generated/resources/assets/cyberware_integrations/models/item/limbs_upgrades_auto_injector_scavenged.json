@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cyberware_integrations:item/limbs_upgrades_auto_injector_scavenged"
+  }
+}

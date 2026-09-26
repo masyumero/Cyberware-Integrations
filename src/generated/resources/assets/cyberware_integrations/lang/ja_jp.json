@@ -1,0 +1,7 @@
+{
+  "constants.cyberware_integrations.mod_name": "Cyberware:Integrations",
+  "cyberware.tooltip.heart_upgrades_thermoregulator": "体温を調節し適度に保ちます",
+  "cyberware.tooltip.limbs_upgrades_auto_injector": "自動でインベントリ内のニューロポザインを使用します",
+  "item.cyberware_integrations.heart_upgrades_thermoregulator": "体温調節器",
+  "item.cyberware_integrations.limbs_upgrades_auto_injector": "自動抑制注射器"
+}
