@@ -1,0 +1,26 @@
+[versions]
+mixinExtras = "0.5.4"
+
+cyberwareReforged = "8531886"
+cyberSpells = "7643730"
+toughAsNails = "5815863"
+ironsSpellsNSpellbooks = "8680180"
+glitchcore = "5787839"
+playerAnimator = "4587214"
+ironsLib = "8364892"
+geckolib = "8285794"
+curios = "6418456"
+
+[libraries]
+mixinExtras-common          = { module = "io.github.llamalad7:mixinextras-common", version.ref = "mixinExtras" }
+mixinExtras-forge           = { module = "io.github.llamalad7:mixinextras-forge", version.ref = "mixinExtras" }
+
+cyberwareReforged           = { module = "curse.maven:cyberware-reforged-1401640", version.ref = "cyberwareReforged" }
+cyberSpells                 = { module = "curse.maven:cyber-spells-1463259", version.ref = "cyberSpells" }
+toughAsNails                = { module = "curse.maven:tough-as-nails-246391", version.ref = "toughAsNails" }
+ironsSpellsNSpellbooks      = { module = "curse.maven:irons-spells-n-spellbooks-855414", version.ref = "ironsSpellsNSpellbooks" }
+glitchcore                  = { module = "curse.maven:glitchcore-955399", version.ref = "glitchcore" }
+playerAnimator              = { module = "curse.maven:playeranimator-658587", version.ref = "playerAnimator" }
+ironsLib                    = { module = "curse.maven:irons-lib-1492763", version.ref = "ironsLib" }
+geckolib                    = { module = "curse.maven:geckolib-388172", version.ref = "geckolib" }
+curios                      = { module = "curse.maven:curios-309927", version.ref = "curios" }
