@@ -35,6 +35,11 @@ legacyForge {
 
     version = libs.versions.minecraftForge.get()
 
+    parchment {
+        minecraftVersion = libs.versions.minecraft.get()
+        mappingsVersion = libs.versions.parchment.get()
+    }
+
     validateAccessTransformers = true
 
     runs {
