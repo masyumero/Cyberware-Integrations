@@ -1,4 +1,4 @@
-package io.github.masyumero.cyberware_integrations.common.item.cyberware.muscle;
+package io.github.masyumero.cyberware_integrations.common.item.cyberware.arm;
 
 import com.maxwell.cyber_ware_port.common.block.robosurgeon.RobosurgeonBlockEntity;
 import com.maxwell.cyber_ware_port.common.capability.CyberwareCapabilityProvider;

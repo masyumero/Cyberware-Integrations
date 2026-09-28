@@ -2,7 +2,7 @@ package io.github.masyumero.cyberware_integrations.common.registry;
 
 import io.github.masyumero.cyberware_integrations.CyberwareIntegrations;
 import io.github.masyumero.cyberware_integrations.common.item.cyberware.heart.ThermoregulatorItem;
-import io.github.masyumero.cyberware_integrations.common.item.cyberware.muscle.AutoInjectorItem;
+import io.github.masyumero.cyberware_integrations.common.item.cyberware.arm.AutoInjectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
