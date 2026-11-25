@@ -17,6 +17,7 @@ public class CIsLang extends LanguageProvider {
         add(CyberwareIntegrationsLang.TAB.translationKey, "Cyberware:Integrations");
         addCyberware(CIsItems.THERMOREGULATOR.get(), "体温調節器", "体温を調節し適度に保ちます");
         addCyberware(CIsItems.AUTO_INJECTOR.get(), "自動抑制注射器", "自動でインベントリ内のニューロポザインを使用します");
+        addCyberware(CIsItems.DEHYDRATION_SUPPRESSOR.get(), "脱水抑圧器", "脱水症状を一時的に抑圧します");
     }
 
     private void addCyberware(ItemLike item, String name, String tooltip) {

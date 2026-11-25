@@ -8,9 +8,6 @@
     "cyber_ware_port.MixinEntitiesItemDropEvents",
     "cyberspells.MixinCyberRuneLogMute"
   ],
-  "client": [
-    "cyberwareplus.MixinClientCyberWareData"
-  ],
   "injectors": {
     "defaultRequire": 1
   },

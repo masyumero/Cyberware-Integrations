@@ -2,6 +2,8 @@
   "constants.cyberware_integrations.mod_name": "Cyberware:Integrations",
   "cyberware.tooltip.heart_upgrades_thermoregulator": "体温を調節し適度に保ちます",
   "cyberware.tooltip.limbs_upgrades_auto_injector": "自動でインベントリ内のニューロポザインを使用します",
+  "cyberware.tooltip.lower_organs_dehydration_suppresor": "脱水症状を一時的に抑圧します",
   "item.cyberware_integrations.heart_upgrades_thermoregulator": "体温調節器",
-  "item.cyberware_integrations.limbs_upgrades_auto_injector": "自動抑制注射器"
+  "item.cyberware_integrations.limbs_upgrades_auto_injector": "自動抑制注射器",
+  "item.cyberware_integrations.lower_organs_dehydration_suppresor": "脱水抑圧器"
 }

@@ -19,5 +19,6 @@ public class MixinEntitiesItemDropEvents {
     private static void entryModify(ICyberwareMob cyberMob, CallbackInfoReturnable<List<Item>> cir, @Local(name = "pool") List<Item> pool) {
         pool.add(CIsItems.THERMOREGULATOR.get());
         pool.add(CIsItems.AUTO_INJECTOR.get());
+        pool.add(CIsItems.DEHYDRATION_SUPPRESSOR.get());
     }
 }

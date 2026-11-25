@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cyberware_integrations:item/lower_organs_dehydration_suppresor_scavenged"
+  }
+}

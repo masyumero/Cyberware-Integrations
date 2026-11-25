@@ -4,11 +4,14 @@ import com.maxwell.cyber_ware_port.common.block.robosurgeon.RobosurgeonBlockEnti
 import com.maxwell.cyber_ware_port.common.capability.CyberwareCapabilityProvider;
 import com.maxwell.cyber_ware_port.common.item.base.CyberwareItem;
 import com.maxwell.cyber_ware_port.init.ModItems;
+import io.github.masyumero.cyberware_integrations.api.item.IIntegrationItem;
+import io.github.masyumero.cyberware_integrations.common.Integration;
+import io.github.masyumero.cyberware_integrations.common.item.cyberware.CyberwareIntegrationItem;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 
-public class AutoInjectorItem extends CyberwareItem {
+public class AutoInjectorItem extends CyberwareIntegrationItem {
 
     public AutoInjectorItem() {
         super(new Builder(2, RobosurgeonBlockEntity.SLOT_ARMS)
@@ -28,5 +31,10 @@ public class AutoInjectorItem extends CyberwareItem {
                 }
             });
         }
+    }
+
+    @Override
+    public Integration getIntegration() {
+        return null;
     }
 }
